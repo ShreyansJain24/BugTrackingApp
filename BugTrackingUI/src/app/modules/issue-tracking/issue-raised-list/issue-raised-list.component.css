@@ -1,0 +1,10 @@
+.filter{
+  width: 80%;
+}
+.allign{
+  margin-left: 80%;
+}
+
+th, td {
+  text-align: left;
+}
