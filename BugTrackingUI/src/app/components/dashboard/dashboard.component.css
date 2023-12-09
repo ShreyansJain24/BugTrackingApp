@@ -1,0 +1,12 @@
+.example-list-wrapping {
+    max-width: 500px;
+  } 
+  .custom-bullets {
+    list-style-type: disc; 
+       padding-left: 20px; 
+  }
+
+  .custom-bullets li {
+    font-size: 18px; /* Increase the font size */
+    line-height: 1.5; /* Adjust line-height for better visibility and spacing */
+  }

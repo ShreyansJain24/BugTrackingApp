@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DevloperProfileComponent } from './devloper-profile/devloper-profile.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatRippleModule } from '@angular/material/core';
@@ -22,7 +21,7 @@ import { IssueDetailsService } from 'app/services/issue-details.service';
 
 @NgModule({
   declarations: [
-    DevloperProfileComponent,IssueRaiseComponent, IssueRaisedListComponent
+    IssueRaiseComponent, IssueRaisedListComponent
   ],
   imports: [
     CommonModule,
